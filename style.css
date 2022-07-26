@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.main{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 336px;
+    min-height: 236px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+.yellow-header{
+    width: 100%;
+    height: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background: #FFDC40;
+}
+
+.todolist{
+    height: 34px;
+    margin-top: 30px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.sort{
+    margin-top: 5px;
+    position: absolute;
+    right: 22px;
+    display: flex;
+}
+
+#down, #up{
+    cursor: pointer;
+    color: grey;
+    background-color: transparent;
+    border: none;
+}
+
+#down:focus, #up:focus{
+    color: black;
+}
+
+.list{
+    
+    width: 286px;
+    min-height: 40px;
+    margin-top: 27px;
+    margin-left: 28px;
+    list-style: none;
+
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+li{
+    margin: 5px;
+}
+
+input{
+    margin-top: 10px;
+    margin-left: 28px;
+    width: 286px;
+
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+
+    padding-left: 5px;
+}
+
+.add{
+    width: 129px;
+    height: 21px;
+
+    margin-top: 18px;
+    margin-left: 103px;
+    margin-bottom: 10px;
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    background-color: #9953F1;
+    color: #FFFFFF;
+    border-radius: 70px;
+}
+
+.add:hover{
+    cursor: pointer;
+    background-color: #8852E0;
+    color: #EEEEEE;
+}
